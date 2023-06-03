@@ -5,3 +5,16 @@
 ##### Header 5
 ###### Header 6
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+```C
+#include <stdio.h>
+
+int main()
+{
+  int digit;
+  
+  for (digit = 1; digit <= 100; digit++)
+  {
+    printf("%d\n", digit);
+  }
+}
+```
